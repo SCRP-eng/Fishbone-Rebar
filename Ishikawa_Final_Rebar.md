@@ -7,9 +7,9 @@ graph TD
     Final_Rebar --> Quantify["Quantify"]
     Final_Rebar --> Supplier["Supplier"]
 
-    Quantify --> WM_Calc["Not yet waste management calculation"]
+    Quantify --> WM_Calc["Waste Management Calculation (Not Yest Establised)"]
     Quantify --> Format["Make a format or schematic to describe rebar substitution"]
-    Quantify --> Subst_Work["Make sure substitution works"]
+    Quantify --> Subst_Work["Make sure subtitution works for rebar fabrication"]
 
     Supplier --> Cut_Bend["Not supply cut and bend"]
     Supplier --> Coupler["Not supply coupler"]
@@ -19,6 +19,7 @@ graph TD
     Subst_Work --> SPV["Add SPV Personnel"]
 
     Cut_Bend --> New_Supplier["Add another supplier to make coupler and threading"]
+
     Coupler --> New_Supplier
     Coupler --> Bored["Add to scope bored piling contractor to conduct cut and bend (fabrication)"]
 ```
