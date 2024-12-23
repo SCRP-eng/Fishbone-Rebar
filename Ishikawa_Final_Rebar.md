@@ -19,6 +19,7 @@ graph TD
     Subst_Work --> SPV["Add SPV Personnel"]
 
     Cut_Bend --> New_Supplier["Add another supplier to make coupler and threading"]
+    New_Supplier
 
     Coupler --> New_Supplier
     Coupler --> Bored["Add to scope bored piling contractor to conduct cut and bend (fabrication)"]
